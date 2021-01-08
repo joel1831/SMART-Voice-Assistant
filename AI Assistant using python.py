@@ -22,11 +22,12 @@ def take_command():
             print("Recognizing..")
             response = r.recognize_google(audio, language='en-in')
             print(f"Your request is: {response}\n")
+            return response
         except Exception as e:
             print(e)
             print("Say again please...")
             return "None"
-        return response  
+          
 
 def speak(audio):
     engine = p.init()
