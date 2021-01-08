@@ -10,4 +10,5 @@
           pyaudio
           
 It gives greeting to the user.
-The request I am giving is not recognised by the program  ... 
+Opens Facebook, Youtube
+Tells us the time
